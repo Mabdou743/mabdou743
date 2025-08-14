@@ -1,0 +1,27 @@
+name: Update README
+on:
+  schedule:
+    - cron: '0 6 * * *' # runs daily at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install deps
+        run: npm ci || true
+      - name: Run updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: Mabdou743
+        run: |
+          node scripts/update-readme.js
+      - name: Commit & Push (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update README with latest repos
