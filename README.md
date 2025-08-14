@@ -49,9 +49,10 @@ I build user‑friendly web apps with a focus on clean architecture, maintainabl
 ---
 
 ## 📊 Dynamic badges (live)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mabdou743&layout=compact" alt="Top languages" />
-</p>
+
+![Profile views](https://komarev.com/ghpvc/?username=Mabdou743)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Mabdou743&show_icons=true&theme=default&count_private=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mabdou743&layout=compact)
 ![GitHub Streak](https://streak-stats.demolab.com?user=Mabdou743&theme=dark)
 
 ---
