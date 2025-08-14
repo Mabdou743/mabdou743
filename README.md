@@ -30,8 +30,7 @@ I build user‑friendly web apps with a focus on clean architecture, maintainabl
 ---
 
 ## 🚀 Selected projects
-*(Pinned repos recommended for full project details — see my profile.)*
-- **DORAK — Queue Management System** — Angular • .NET Web API • SignalR • SQL Server • HangFire — real‑time queue tracking for businesses.
+- "In Progress" - **DORAK — Queue Management System** — Angular • .NET Web API • SignalR • SQL Server • HangFire — real‑time queue tracking for businesses.
 - **E‑commerce Website** — Angular • Node.js • Express • MongoDB — full shopping flow and order management.
 - **Company Signup Flow** — Angular 19 • .NET Core Web API • PostgreSQL — implemented end-to-end registration flow with OTP verification, password setup, and secure authentication following Clean Architecture principles.
 ---
