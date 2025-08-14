@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Mahmoud Abdou Mostafa
 
 **Software Engineer • Frontend & Full‑Stack Developer**
@@ -61,103 +61,10 @@ This README includes a compact summary of the program modules and outcomes so re
 
 ## 📊 Dynamic badges (live)
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME" alt="profile views" />
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&count_private=true" alt="Mahmoud's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact" alt="Top languages" />
+  <img src="https://komarev.com/ghpvc/?username=Mabdou743" alt="profile views" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Mabdou743&show_icons=true&theme=default&count_private=true" alt="Mahmoud's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mabdou743&layout=compact" alt="Top languages" />
 </p>
-
-> **Notes:** The three badges above are live images — no extra server setup required. If your GitHub username is different, replace `YOUR_USERNAME` in the badge URLs with your correct username.
-
----
-
-## 🔁 Auto‑update README (GitHub Actions)
-I added a ready‑to‑use workflow you can drop into your repo to auto‑update parts of the README (for example: refresh a "Recent Projects" list or regenerate a daily status). Below is a recommended workflow and a small Node script that auto‑fetches your top 5 repos and injects them into a placeholder area.
-
-**Place these files in your repo:**
-- `.github/workflows/update-readme.yml`
-- `scripts/update-readme.js`
-
-**Workflow:**
-```yaml
-name: Update README
-on:
-  schedule:
-    - cron: '0 6 * * *' # runs daily at 06:00 UTC
-  workflow_dispatch:
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-      - name: Install deps
-        run: npm ci || true
-      - name: Run updater
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: YOUR_USERNAME
-        run: |
-          node scripts/update-readme.js
-      - name: Commit & Push (if changed)
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update README with latest repos
-```
-
-**scripts/update-readme.js** (example)
-```js
-const fs = require('fs');
-const https = require('https');
-const username = process.env.GH_USERNAME || 'YOUR_USERNAME';
-const readmePath = 'README.md';
-
-function fetch(url) {
-  return new Promise((res, rej) => {
-    https.get(url, { headers: { 'User-Agent': 'node.js' } }, (r) => {
-      let data = '';
-      r.on('data', chunk => data += chunk);
-      r.on('end', () => res(data));
-    }).on('error', rej);
-  });
-}
-
-(async () => {
-  try {
-    const repos = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`);
-    const reposJson = JSON.parse(repos);
-    // sort by stargazers_count and pick top 5
-    const top = reposJson.sort((a,b) => b.stargazers_count - a.stargazers_count).slice(0,5);
-    const lines = top.map(r => `- [${r.name}](${r.html_url}) — ${r.description || ''}`);
-    const markerStart = '<!-- START_TOP_REPOS -->
-- [Ai-Landing-page](https://github.com/Mabdou743/Ai-Landing-page) — 
-- [Ai_Landing_Page](https://github.com/Mabdou743/Ai_Landing_Page) — 
-- [Html_Project](https://github.com/Mabdou743/Html_Project) — 
-- [Learn_GIT](https://github.com/Mabdou743/Learn_GIT) — studying Git and GitHub
-- [mabdou743](https://github.com/Mabdou743/mabdou743) — 
-<!-- END_TOP_REPOS -->';
-    const readme = fs.readFileSync(readmePath, 'utf8');
-    const before = readme.split(markerStart)[0];
-    const after = readme.split(markerEnd)[1];
-    const newSection = `${markerStart}
-${lines.join('
-')}
-${markerEnd}`;
-    const newReadme = before + newSection + after;
-    fs.writeFileSync(readmePath, newReadme);
-    console.log('README updated');
-  } catch (e) {
-    console.error('Failed to update README', e);
-    process.exit(1);
-  }
-})();
-```
-
-**How it works**
-- The workflow runs daily (or manually) and executes the script. The script fetches your public repos via GitHub API and injects a small `Top projects` block between these two markers in your README:
 
 ```
 <!-- START_TOP_REPOS -->
@@ -232,4 +139,4 @@ Tools          : Git, Postman, Figma, Visual Studio, VS Code
 ### 📌 Fun Fact
 
 > I’m the kind of dev who balances **clean code** with **clean UI** — and never stops learning.
->>>>>>> c917ef74bd3d713c63a13b5dda31ddd726179ce5
+
