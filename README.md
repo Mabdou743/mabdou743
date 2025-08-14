@@ -11,19 +11,13 @@ Cairo, Egypt · 📧 mahmoudabdou743@gmail.com · 📞 +20 1143432437
 I build user‑friendly web apps with a focus on clean architecture, maintainable code, and delightful front‑end experiences. I trained at the Information Technology Institute (ITI) — Professional Development & BI‑infused CRM track — where I completed a 9‑month program that covered modern web development, .NET Core, BI concepts and soft skills.
 
 **Quick facts:**
-- 🔭 Currently: Building the frontend for a company sign‑up flow and polishing the `DORAK` Queue Management System.
+- 🔭 Currently: Building more different project and eager to learn more everyday.
 - 🛠️ Tech focus: Angular, TypeScript, C#, ASP.NET Core, Node.js, MongoDB/SQL Server.
 - 🌱 Learning: Deepening knowledge in RxJS, DevOps basics (Docker, CI/CD), and Power BI.
 
 ---
 
 ## 🎓 Training — Professional Development & BI‑infused CRM (ITI)
-This README includes a compact summary of the program modules and outcomes so recruiters and teammates can see the technical foundation I built during the track.
-
-**Program highlights**
-- **Duration & Style:** 9‑month professional program (project‑based, mentor supported). Delivery mix: 20% self‑paced | 40% online | 40% guided practice.
-- **Prerequisites:** Intro programming, SQL basics, web fundamentals and other pre‑work to prepare trainees for fast paced bootcamp learning.
-- **Program objective:** Produce job‑ready graduates for roles such as Microsoft .NET Full‑Stack Developer, Cloud App Developer, Dynamics CRM Developer, BI Developer, and Frontend Developer.
 
 **Core curriculum (selected topics)**
 - **Software Development Fundamentals:** Data structures & algorithms, OOP, introductory software engineering, XML.
@@ -33,17 +27,13 @@ This README includes a compact summary of the program modules and outcomes so re
 - **Software Design & Workflow:** SOLID principles, design patterns, unit testing, source control, Agile, DevOps elective.
 - **Soft skills:** Communication, high‑impact presentations, job seeking, teamwork and leadership.
 
-**Certification & outcomes:**
-- Students deliver at least one freelancing job and pursue international certificates (Power BI / Azure / Microsoft exams). The program targets employability in major local & international tech employers.
-
 ---
 
 ## 🚀 Selected projects
 *(Pinned repos recommended for full project details — see my profile.)*
 - **DORAK — Queue Management System** — Angular • .NET Web API • SignalR • SQL Server • HangFire — real‑time queue tracking for businesses.
 - **E‑commerce Website** — Angular • Node.js • Express • MongoDB — full shopping flow and order management.
-- **RashadGuide — Health Facilities Directory (Freelance)** — WordPress • HTML/CSS/JS • PHP — searchable directory for Saudi health services (rashadguide.com).
-
+- **Company Signup Flow** — Angular 19 • .NET Core Web API • PostgreSQL — implemented end-to-end registration flow with OTP verification, password setup, and secure authentication following Clean Architecture principles.
 ---
 
 ## 💡 Tech & Tools
@@ -51,7 +41,7 @@ This README includes a compact summary of the program modules and outcomes so re
 
 **Backend:** C# • ASP.NET Core • Node.js • Express.js • REST APIs
 
-**DBs:** SQL Server • MongoDB
+**DBs:** SQL Server • MongoDB • PostgreSQL
 
 **Tools:** Git • GitHub • VS Code • Visual Studio • Postman • SSMS
 
@@ -64,61 +54,6 @@ This README includes a compact summary of the program modules and outcomes so re
   <img src="https://komarev.com/ghpvc/?username=Mabdou743" alt="profile views" />
   <img src="https://github-readme-stats.vercel.app/api?username=Mabdou743&show_icons=true&theme=default&count_private=true" alt="Mahmoud's GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mabdou743&layout=compact" alt="Top languages" />
-</p>
-
-```
-<!-- START_TOP_REPOS -->
-... auto-inserted list ...
-=======
-<h1 align="center">Hi 👋, I'm Mahmoud Abdou</h1>
-<h3 align="center">Full Stack Developer (.NET / MEAN) | CRM & BI Enthusiast | Based in Egypt 🇪🇬</h3>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mabdou743&label=Profile%20views&color=0e75b6&style=flat" alt="mabdou743" />
-</p>
-
----
-
-### 👨‍💻 About Me
-
-- 🎓 I’m a passionate **Full Stack Web Developer** skilled in both **.NET** and the **MEAN stack**  
-- 💼 Currently working on a **large-scale Queue Management System** (Private Project)  
-- 🔄 Building **CRM customizations** with Microsoft Dynamics 365  
-- 📊 Exploring **Business Intelligence** with **Power BI**, **SSAS**, and **SSRS**  
-- 💡 Eager to learn and contribute to meaningful products that impact real users
-
----
-
-### 🚀 Tech Stack
-
-```text
-Languages      : C#, JavaScript, TypeScript, SQL
-Frontend       : Angular, HTML5, CSS3, TailwindCSS, Bootstrap
-Backend        : .NET Core, Node.js, Express.js
-Databases      : SQL Server, MongoDB
-BI & Analytics : Power BI, SSRS, SSAS
-CRM            : Microsoft Dynamics 365 (Plugins, Workflows)
-Tools          : Git, Postman, Figma, Visual Studio, VS Code
-```
-
----
-
-### 🔨 Projects
-
-- 🛒 [NodeJs E-Commerce (Public)](https://github.com/AmgadMAdly/NodeJsE-Commerce)  
-  > Role: Backend Contributor — Product & Cart Management, MongoDB, Express
-
-- 🧩 **[Enterprise Queue Management System](#)** (🚧 *Private - In Progress*)  
-  > Full Stack Implementation with .NET 8, Angular 16, Token-based Auth, CRM Modules
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mabdou743&show_icons=true&theme=default" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mabdou743&layout=compact&theme=default" />
 </p>
 
 ---
