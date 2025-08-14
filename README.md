@@ -53,7 +53,6 @@ I build user‑friendly web apps with a focus on clean architecture, maintainabl
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mabdou743&layout=compact" alt="Top languages" />
 </p>
 ![GitHub Streak](https://streak-stats.demolab.com?user=Mabdou743&theme=dark)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mabdou743&theme=github)
 ---
 
 ### 🌐 Connect With Me
